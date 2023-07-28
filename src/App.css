@@ -1,3 +1,7 @@
+body {
+  background-color: #1ea1c5;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,114 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.plan{
+color:aquamarine;
+
+}
+
+.header-main{
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:50px;
+  color:white;
+}
+
+.main{
+  margin-top:15%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 15px;
+}
+.block{
+  display: block;
+}
+/* Stilizare caseta de adăugare task-uri */
+.inpname {
+  margin: 20px;
+  background-color: rgb(246, 248, 246);
+  border: 0;
+  padding: 15px 30px;
+  text-align: center;
+  border-radius: 5px;
+  width: 300px;
+}
+
+
+.list-box{
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+ .task-name {
+  margin: 10px 0; 
+  padding: 10px;
+  background: white;
+  font-size: 1rem;
+  font-weight: 400;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s ease;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.plus-button {
+  border: 0;
+  padding: 10px;
+  border-radius: 6px;
+
+}
+
+
+.check-button{  border: 0;
+  padding: 10px;
+  border-radius: 6px;
+  margin-right: 5px;
+  padding: 5px;
+  display: inline-block; 
+  color: green;
+ 
+}
+.trash-button {
+  border: 0;
+  padding: 10px;
+  border-radius: 6px;
+  margin-right: 5px;
+  padding: 5px;
+  display: inline-block;
+  color: red; 
+}
+/* 
+.container {
+  display: flex; 
+} */
+
+.task.completed  {
+  text-decoration: line-through;
+  width: 100%;
+  color: rgb(2, 2, 2);
+  font-weight: bolder;
+  
 }
