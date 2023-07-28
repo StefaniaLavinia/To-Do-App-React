@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "primeicons/primeicons.css";
+// import "primeicons/primeicons.css";
 
 // let obiectproba = {
 // name: "",
